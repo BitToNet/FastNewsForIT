@@ -1,4 +1,4 @@
-package com.chingsoft.museum;
+package cn.bittonet.news;
 
 import org.junit.Test;
 

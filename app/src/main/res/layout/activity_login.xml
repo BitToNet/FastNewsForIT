@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/login_bg">
 
-    <com.chingsoft.museum.view.RoundLinearLayout
+    <cn.bittonet.news.view.RoundLinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="48dp"
@@ -104,5 +104,5 @@
             android:text="登录"
             android:textColor="@color/white"
             android:textSize="16sp" />
-    </com.chingsoft.museum.view.RoundLinearLayout>
+    </cn.bittonet.news.view.RoundLinearLayout>
 </android.support.constraint.ConstraintLayout>

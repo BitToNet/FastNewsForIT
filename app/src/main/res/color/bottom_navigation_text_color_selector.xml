@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/colorPrimary" android:state_selected="true"></item>
+    <!-- 其他状态下控件的背景图为button_red_normal -->
+    <item android:color="@color/colorPrimaryDark"></item>
+</selector>

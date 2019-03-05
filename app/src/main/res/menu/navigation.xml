@@ -4,20 +4,20 @@
     <item
         android:id="@+id/navigation_showing"
         android:icon="@drawable/ic_tab_showing"
-        android:title="@string/title_showing" />
+        android:title="快讯" />
 
     <item
     android:id="@+id/navigation_device"
     android:icon="@drawable/ic_tab_device"
-    android:title="@string/title_device" />
+    android:title="推荐" />
 
     <item
         android:id="@+id/navigation_analyze"
         android:icon="@drawable/ic_tab_analyze"
-        android:title="@string/title_analyze" />
+        android:title="关注" />
 
     <item
         android:id="@+id/navigation_setting"
         android:icon="@drawable/ic_tab_setting"
-        android:title="@string/title_setting" />
+        android:title="我的" />
 </menu>

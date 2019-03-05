@@ -68,7 +68,7 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <com.chingsoft.museum.view.CircleProgress
+            <cn.bittonet.news.view.CircleProgress
                 android:id="@+id/cp_temp"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
@@ -91,7 +91,7 @@
                 app:cp_value_color="@color/black"
                 app:cp_value_size="12sp"
                 app:textOffsetPercentInRadius="0.5" />
-            <com.chingsoft.museum.view.CircleProgress
+            <cn.bittonet.news.view.CircleProgress
                 android:id="@+id/cp_humi"
                 android:layout_width="50dp"
                 android:layout_height="50dp"

@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <com.chingsoft.museum.view.CircleProgress
+    <cn.bittonet.news.view.CircleProgress
         android:layout_centerInParent="true"
         android:id="@+id/cp"
         android:layout_width="50dp"
