@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="4dp"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@color/gray_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:scaleType="centerInside"
+            android:background="@color/gray_black"
+            android:id="@+id/iv"
+            android:layout_width="match_parent"
+            android:layout_height="105dp" />
+
+        <TextView
+            android:layout_margin="3dp"
+            android:id="@+id/tv"
+            tools:text="清紫砂均釉方茶壶"
+            android:gravity="center"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:lines="1"
+            android:textColor="@color/black_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_margin="3dp"
+                android:text="状态："
+                android:gravity="center"
+                android:textSize="12dp"
+                android:lines="1"
+                android:textColor="@color/text_color_9b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_margin="3dp"
+                android:id="@+id/tv_state"
+                android:text="正常"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:lines="1"
+                android:textColor="@color/text_color_green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.chingsoft.museum.view.CircleProgress
+                android:id="@+id/cp_temp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:arc_color="@color/text_color_green"
+                app:arc_width="6dp"
+                app:bg_arc_color="#F4F3F3"
+                app:bg_arc_width="6dp"
+                app:cp_anti_alias="true"
+                app:cp_hint="温度"
+                app:cp_hint_color="#4C495B"
+                app:cp_max_value="90"
+                app:cp_hint_size="9dp"
+                app:cp_precision="1"
+                app:cp_start_angle="120"
+                app:cp_sweep_angle="300"
+                app:cp_unit="℃"
+                app:cp_unit_size="9dp"
+                app:cp_unit_color="#4C495B"
+                app:cp_value="-1"
+                app:cp_value_color="@color/black"
+                app:cp_value_size="12sp"
+                app:textOffsetPercentInRadius="0.5" />
+            <com.chingsoft.museum.view.CircleProgress
+                android:id="@+id/cp_humi"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:arc_color="@color/text_color_green"
+                app:arc_width="6dp"
+                app:bg_arc_color="#F4F3F3"
+                app:bg_arc_width="6dp"
+                app:cp_anti_alias="true"
+                app:cp_hint="湿度"
+                app:cp_hint_size="9dp"
+                app:cp_hint_color="#4C495B"
+                app:cp_max_value="90"
+                app:cp_precision="1"
+                app:cp_start_angle="120"
+                app:cp_sweep_angle="300"
+                app:cp_unit="%"
+                app:cp_unit_size="9dp"
+                app:cp_unit_color="#4C495B"
+                app:cp_value="-1"
+                app:cp_value_color="@color/black"
+                app:cp_value_size="12sp"
+                app:textOffsetPercentInRadius="0.5" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>

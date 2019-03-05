@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#68A8FF</color>
+    <color name="colorPrimaryDark">#329FFF</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="start_color">#73AEF7</color>
+    <color name="end_color">#7386F6</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="gray_black">#ebf0f7</color>
+    <color name="gray_text">#9EABBE</color>
+    <color name="black_text">#4C495B</color>
+    <color name="chart_text">#6DA5F1</color>
+    <color name="hint_text">#9FA9B9</color>
+    <color name="audit_gray_text">#8996A9</color>
+    <color name="audit_carmen_bg">#F1F1F1</color>
+    <color name="gray_bg">#f4f4f4</color>
+    <color name="line_shadow">#575657</color>
+    <color name="chart_line">#8B8B8B</color>
+    <color name="black">#000000</color>
+    <color name="tablayout_text">#515458</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#4f000000</color>
+    <color name="half_transparent_white">#80ffffff</color>
+
+    <color name="title_color">@color/white</color>
+    <color name="battle_color">#4BA3FF</color>
+    <color name="bule_line_color">#799FD4</color>
+    <color name="shape_time_selected_bg">#0B86FF</color>
+    <color name="shape_time_normal_bg">#EDEDED</color>
+
+    <color name="window_background">#ECF1F8</color>
+
+    <color name="divider">#F5F5F5</color>
+
+    <color name="oval_orange">#ED7338</color>
+
+    <color name="press_white">#80ffffff</color>
+
+    <color name="text_color_deep">#3C3C3C</color>
+    <color name="text_color">#7B7F84</color>
+    <color name="text_color_light">#C6C5C5</color>
+    <color name="text_color_4">#444444</color>
+    <color name="text_color_6d">#6D6D6D</color>
+    <color name="text_color_b2">#B2B2B2</color>
+    <color name="text_color_89">#898989</color>
+    <color name="text_color_a0">#A0A0A0</color>
+    <color name="text_color_52">#525252</color>
+    <color name="text_color_6">#666666</color>
+    <color name="text_color_3">#333333</color>
+    <color name="text_color_9">#999999</color>
+    <color name="text_color_7">#777777</color>
+    <color name="text_color_b8">#B8B8B8</color>
+    <color name="text_color_9b">#9b9b9b</color>
+    <color name="text_color_orange">#ED7338</color>
+    <color name="text_color_green">#44C949</color>
+    <color name="text_color_blue">#6CA4F1</color>
+    <color name="text_color_yellow">#FFC515</color>
+
+    <color name="divider_line">#DFDFDF</color>
+
+    <color name="arc1">#738cea</color>
+    <color name="arc2">#74c7e8</color>
+    <color name="arc3">#48e0a2</color>
+    <color name="arc4">#ffc35a</color>
+    <color name="arc5">#ff7d4a</color>
+
+
+    <color name="white2">#f5f3f3</color>
+    <color name="colorRed">#DA2C2C</color>
+</resources>

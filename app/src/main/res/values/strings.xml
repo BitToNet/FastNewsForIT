@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">博物馆</string>
+
+    <string name="empty">空空如也!</string>
+    <string name="no_network">加载失败了!</string>
+    <string name="loading">加载中&#8230;</string>
+    <string name="no_recrod">暂无记录</string>
+
+    <string name="mobile_not_null">用户名不能为空</string>
+    <string name="password_not_null">密码不能为空</string>
+
+    <string name="title_showing">展厅</string>
+    <string name="title_device">恒湿机</string>
+    <string name="title_analyze">分析</string>
+    <string name="title_setting">设置</string>
+
+</resources>

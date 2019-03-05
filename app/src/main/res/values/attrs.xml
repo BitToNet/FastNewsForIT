@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StateView">
+        <attr format="reference" name="emptyResource" />
+        <attr format="reference" name="retryResource" />
+    </declare-styleable>
+
+    <!-- 以下是重用attr的正确姿势,一切为了在布局中可以自动提示-->
+    <!-- 圆角矩形背景色 -->
+    <attr format="color" name="rv_backgroundColor" />
+    <!-- 圆角矩形背景色press -->
+    <attr format="color" name="rv_backgroundPressColor" />
+    <!-- 圆角弧度,单位dp-->
+    <attr format="dimension" name="rv_cornerRadius" />
+    <!-- 边框宽度,单位dp-->
+    <attr format="dimension" name="rv_strokeWidth" />
+    <!-- 边框颜色-->
+    <attr format="color" name="rv_strokeColor" />
+    <!-- 边框虚线长度,单位dp-->
+    <attr format="dimension" name="rv_strokeDishWidth" />
+    <!-- 边框虚线间隔,单位dp-->
+    <attr format="dimension" name="rv_strokeDishGap" />
+    <!-- 边框点击后的颜色press -->
+    <attr format="color" name="rv_strokePressColor" />
+    <!-- 文字颜色press-->
+    <attr format="color" name="rv_textPressColor" />
+    <!-- 圆角弧度是高度一半-->
+    <attr format="boolean" name="rv_isRadiusHalfHeight" />
+    <!-- 圆角矩形宽高相等,取较宽高中大值-->
+    <attr format="boolean" name="rv_isWidthHeightEqual" />
+    <!-- 圆角弧度,单位dp,TopLeft-->
+    <attr format="dimension" name="rv_cornerRadius_TL" />
+    <!-- 圆角弧度,单位dp,TopRight-->
+    <attr format="dimension" name="rv_cornerRadius_TR" />
+    <!-- 圆角弧度,单位dp,BottomLeft-->
+    <attr format="dimension" name="rv_cornerRadius_BL" />
+    <!-- 圆角弧度,单位dp,BottomRight-->
+    <attr format="dimension" name="rv_cornerRadius_BR" />
+    <!-- 是否有Ripple效果,api21+有效-->
+    <attr format="boolean" name="rv_isRippleEnable" />
+    <!-- Ripple颜色,api21+有效-->
+    <attr format="color" name="rv_rippleColor" />
+
+    <declare-styleable name="RoundTextView">
+        <attr name="rv_backgroundColor" />
+        <attr name="rv_backgroundPressColor" />
+        <attr name="rv_cornerRadius" />
+        <attr name="rv_strokeWidth" />
+        <attr name="rv_strokeDishWidth" />
+        <attr name="rv_strokeDishGap" />
+        <attr name="rv_strokeColor" />
+        <attr name="rv_strokePressColor" />
+        <attr name="rv_textPressColor" />
+        <attr name="rv_isRadiusHalfHeight" />
+        <attr name="rv_isWidthHeightEqual" />
+        <attr name="rv_cornerRadius_TL" />
+        <attr name="rv_cornerRadius_TR" />
+        <attr name="rv_cornerRadius_BL" />
+        <attr name="rv_cornerRadius_BR" />
+        <attr name="rv_rippleColor" />
+        <attr name="rv_isRippleEnable" />
+    </declare-styleable>
+
+    <!-- 圆形进度条 -->
+    <declare-styleable name="CircleProgress">
+        <!-- 是否开启抗锯齿 -->
+        <attr format="boolean|reference" name="cp_anti_alias" />
+        <!-- 圆弧起始角度，3点钟方向为0，顺时针递增，小于0或大于360进行取余 -->
+        <attr format="float|reference" name="cp_start_angle" />
+        <!-- 圆弧度数 -->
+        <attr format="float|reference" name="cp_sweep_angle" />
+        <!-- 设置动画时间 -->
+        <attr format="integer|reference" name="cp_anim_time" />
+        <!-- 绘制内容的数值 -->
+        <attr format="float|reference" name="cp_max_value" />
+        <attr format="float|reference" name="cp_value" />
+        <attr format="dimension|reference" name="cp_value_size" />
+        <attr format="color|reference" name="cp_value_color" />
+        <!-- 绘制内容的单位 -->
+        <attr format="string|reference" name="cp_unit" />
+        <attr format="dimension|reference" name="cp_unit_size" />
+        <attr format="color|reference" name="cp_unit_color" />
+        <!-- 绘制内容相应的提示语 -->
+        <attr format="string|reference" name="cp_hint" />
+        <attr format="dimension|reference" name="cp_hint_size" />
+        <attr format="color|reference" name="cp_hint_color" />
+        <!-- 精度，默认为0 -->
+        <attr format="integer|reference" name="cp_precision" />
+        <!-- 圆弧宽度 -->
+        <attr format="dimension|reference" name="arc_width" />
+        <!-- 圆弧颜色 -->
+        <attr format="color|reference" name="arc_color" />
+        <!-- 文字的偏移量。相对于圆半径而言，默认三分之一 -->
+        <attr format="float|reference" name="textOffsetPercentInRadius" />
+        <!-- 背景圆弧颜色，默认白色 -->
+        <attr format="color|reference" name="bg_arc_color" />
+        <!-- 背景圆弧宽度 -->
+        <attr format="dimension|reference" name="bg_arc_width" />
+        <attr format="enum" name="arc_color_type">                         <!-- 进度条颜色 -->
+            <enum name="single_color" value="0" />                         <!-- 单色 -->
+            <enum name="multi_color" value="1" />                          <!-- 渐变色 -->
+        </attr>
+        <attr format="boolean|reference" name="arc_show_value" />
+    </declare-styleable>
+
+
+</resources>

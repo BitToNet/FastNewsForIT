@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.chingsoft.museum.view.CircleProgress
+        android:layout_centerInParent="true"
+        android:id="@+id/cp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:arc_color="@color/text_color_green"
+        app:arc_width="6dp"
+        app:bg_arc_color="#F4F3F3"
+        app:bg_arc_width="6dp"
+        app:cp_anti_alias="true"
+        tools:cp_hint="温度"
+        app:cp_hint_color="#4C495B"
+        app:cp_max_value="90"
+        app:cp_hint_size="9dp"
+        app:cp_precision="1"
+        app:cp_start_angle="120"
+        app:cp_sweep_angle="300"
+        tools:cp_unit="℃"
+        app:cp_unit_size="9dp"
+        app:cp_unit_color="#4C495B"
+        app:cp_value="36.5"
+        app:cp_value_color="@color/black"
+        app:cp_value_size="12sp"
+        app:textOffsetPercentInRadius="0.5" />
+
+</RelativeLayout>
