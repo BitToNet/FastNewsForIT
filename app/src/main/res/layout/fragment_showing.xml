@@ -1,48 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:focusable="true"
-    android:orientation="vertical"
-    android:background="@color/white"
-    android:focusableInTouchMode="true"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <include
-        layout="@layout/toolbar_blue"
-        android:id="@+id/include" />
+    <include layout="@layout/layout_smartrefreshview" />
 
-    <org.angmarch.views.NiceSpinner
-        android:id="@+id/nice_spinner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"/>
-
-    <include layout="@layout/top_sign" />
-
-    <android.support.v4.widget.NestedScrollView
+    <LinearLayout
+        android:id="@+id/layout_bottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:focusable="true"
-        android:focusableInTouchMode="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/include">
-
-        <LinearLayout
-            android:id="@+id/root_layout"
-            android:background="@color/white"
-            android:orientation="vertical"
-            style="@style/MAIN_MATCH_PARENT_STYLE">
-
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/recyclerview_department"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                />
-
-        </LinearLayout>
-    </android.support.v4.widget.NestedScrollView>
-
+        android:layout_gravity="bottom"
+        android:background="#eee"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        tools:visibility="visible">
+    </LinearLayout>
 </LinearLayout>

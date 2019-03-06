@@ -74,4 +74,7 @@ dependencies {
     implementation('cn.qqtheme.framework:WheelPicker:1.5.6') {
         exclude group: 'com.android.support'
     }
+    // 下拉刷新 上拉加载
+    implementation "com.scwang.smartrefresh:SmartRefreshLayout:1.0.4-7"
+    implementation "com.scwang.smartrefresh:SmartRefreshHeader:1.0.4-7"
 }
